@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "ndbi048-toxicomania-report"
+version = "0.1.0"
+description = ""
+authors = ["David Kubek <david.kubek@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+seaborn = "^0.12.2"
+scikit-learn = "^1.2.0"
+pandas = "^1.5.2"
+missingno = "^0.5.1"
+pandas-profiling = "^3.6.2"
+mlflow = "^2.1.1"
+pymc = "^5.0.1"
+statsmodels = "^0.13.5"
+pretty-jupyter = "^2.0.4"
+
+[tool.poetry.dev-dependencies]
+yapf = "^0.32.0"
+isort = "^5.11.4"
+flake8 = "^6.0.0"
+pylint = "^2.15.10"
+jupyter = "^1.0.0"
+notebook = "^6.5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

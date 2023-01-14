@@ -1,0 +1,5 @@
+outs:
+- md5: ed71b45c05b0c64f92505ffae8a8382a.dir
+  size: 27907684
+  nfiles: 11
+  path: geodata
